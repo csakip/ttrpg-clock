@@ -1,0 +1,10 @@
+.tab-content {
+  border-left: var(--bs-border-width) solid var(--bs-border-color);
+  border-right: var(--bs-border-width) solid var(--bs-border-color);
+  border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+  padding: 10px;
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
