@@ -12,7 +12,7 @@ import HelpDialog from "./Components/HelpDialog";
 
 function App() {
   const [date, setDate] = useLocalStorageState("ttrpg-clock-date", {
-    defaultValue: "2135-07-02",
+    defaultValue: new Date().toISOString().split("T")[0],
   });
   const [time, setTime] = useLocalStorageState("ttrpg-clock-time", {
     defaultValue: "12:00",
